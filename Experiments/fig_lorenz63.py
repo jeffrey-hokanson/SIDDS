@@ -2,7 +2,7 @@ import numpy as np
 import lide
 
 import matplotlib.pyplot as plt
-from psdr.pgf import PGF
+from pgf import PGF
 
 dt = 1e-2
 N = 10/dt

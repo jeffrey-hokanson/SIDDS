@@ -133,7 +133,7 @@ def build_kkt(Ys, phis, C_old, Xs_old, dts, points = 3, weight = None, x0 = None
 if __name__ == '__main__':
 	from pyamg.krylov import gmres
 	from scipy.sparse.linalg import minres 
-	from psdr.pgf import PGF
+	from pgf import PGF
 
 	phis, C = lide.lorenz63()
 	dt = 1e-2

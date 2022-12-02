@@ -1,7 +1,7 @@
 import numpy as np
 import lide
 
-from psdr.pgf import PGF
+from pgf import PGF
 
 dt = 1e-2
 N = 10/dt
